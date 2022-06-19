@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>latihan conversi</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript">
+            var nama;
+            nama=prompt('Silakan masukkan nama anda');
+            if(nama){
+                alert('Hello '+nama+', selamat datang di profile Dzaki');
+            }
+            else{
+                alert('Hello orang yang namanya tidak ingin dietahui, selamat datang di profile ku')
+            }
+        </script>
+    </head>
+    <body>
+       <div id="wrapper">
+           <div id="header">
+               <h1>DZAKI-CYBER</h1>
+               <ul id="menu">
+                   <li><a href="home.html">Home</a></li>
+                   <li><a href="about.html">About</a></li>
+                   <li><a href="project.html">Project</a></li>
+                   <li><a href="contact">Contact</a></li>
+               </ul>
+           </div>
+           <div id="profile">
+               <img src="poto/profile.jpeg" alt="foto" width="300"/>
+               <center><h1>Muhammad Dzaki Abdurrahman</h1>
+               <p><h2>Junior Programming</h2></p></center>
+           </div>
+           <div id="about-me">
+               <h1><center>About Me</center></h1>
+               <div id="about-me1">
+                <p>"Siswa aktif jurusan TKR (Teknik Kendaraan Ringan) dari SMKN 1 Tambun Utara dengan kemapuan dasar teknik otomotif seperti perawatan benda kerja dan gambar teknik."</p>
+               </div>
+               <div id="about-me2">
+                <p>"Junior programing dari Z-CYBER COURSE yang mempunyai kemapuan dasar membuat website dengan atribut HTML dan CSS."</p>
+               </div>
+           </div>
+           <div id="sidebar">
+               <h1><center>My Project</center></h1>
+               <div id="sidebar1">
+                   <img src="poto/masjid.PNG" alt="masjid" width="150"/>
+                   <h3>Web Masjid Al Hidayah</h3>
+                   <p>Website ini di buat untuk memberitahu kegiatan apa saja yang ada di Masjid Al hidayah. Website ini di buat pada tahun 2022<br><a href="preview1.html">Preview</a></p>
+               </div>
+               <div id="sidebar2">
+                <img src="poto/tugas.PNG" alt="tugas" width="150"/>
+                <h3>Tugas 3</h3>
+                <p>Website tugas 3 di buat dengan menggunakan bahasa pemrograman Html dan Css. Website ini di buat pada tahun 2022<br><a href="preview1.html">Preview</a></p>
+               </div> 
+               <div id="sidebar3">
+                <img src="poto/tugas.PNG" alt="tugas" width="150"/>
+                <h3>Web latihan 1</h3>
+                <p>Website latihan 1 di buat dengan menggunakan bahasa pemrograman Html dan Css. Website ini di buat pada tahun 2022<br><a href="preview1.html">Preview</a></p>
+               </div>  
+           </div>
+           <form id="contact">
+               <center><h1>Contact Me</h1></center>
+               <label for="nama">Nama Lengkap</label><br>
+               <input type="text" name="nama"><br><br>
+               <label for="email">Email</label><br>
+               <input type="text" name="email"><br><br>
+               <label for="pesan">Pesan</label><br>
+               <textarea name="pesan"></textarea><br><br>
+               <input type="submit" value="kirim">
+           </form>
+           <div id="footer">
+               <center><p>Create with ❤️ by <a href="#">Muhammad Dzaki Abdurrahman</a></p></center>
+           </div>
+        </div>
+    </body>
+</html>
